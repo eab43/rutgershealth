@@ -46,7 +46,16 @@ function MyTabs() {
                     ),
             }} 
             />
-            
+            <Tab.Screen
+                name="Settings"
+                component={Settings}
+                options={{
+                    tabBarLabel: 'Settings',
+                    tabBarIcon: ({ color }) => (
+                    <Feather name="settings" color={color} size={25} />
+                    ),
+            }} 
+            />            
             <Tab.Screen
                 name="Contact"
                 component={Contact}
