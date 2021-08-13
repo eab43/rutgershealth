@@ -1,0 +1,21 @@
+{
+    "appName": "rutgershealthamplify",
+    "roleName": "pinpointLambdaRolebf745b9b",
+    "cloudformationPolicyName": "cloudformationPolicybf745b9b",
+    "cloudWatchPolicyName": "cloudWatchPolicybf745b9b",
+    "pinpointPolicyName": "pinpointPolicybf745b9b",
+    "authPolicyName": "pinpoint_amplify_bf745b9b",
+    "unauthPolicyName": "pinpoint_amplify_bf745b9b",
+    "authRoleName": {
+        "Ref": "AuthRoleName"
+    },
+    "unauthRoleName": {
+        "Ref": "UnauthRoleName"
+    },
+    "authRoleArn": {
+        "Fn::GetAtt": [
+            "AuthRole",
+            "Arn"
+        ]
+    }
+}

@@ -1,6 +1,6 @@
 {
     "identityPoolName": "rutgershealthamplify67f1900c_identitypool_67f1900c",
-    "allowUnauthenticatedIdentities": false,
+    "allowUnauthenticatedIdentities": true,
     "resourceNameTruncated": "rutger67f1900c",
     "userPoolName": "rutgershealthamplify67f1900c_userpool_67f1900c",
     "autoVerifiedAttributes": [

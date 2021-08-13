@@ -24,5 +24,17 @@
       "dependsOn": [],
       "customAuth": false
     }
+  },
+  "storage": {
+    "video": {
+      "service": "S3",
+      "providerPlugin": "awscloudformation"
+    }
+  },
+  "analytics": {
+    "rutgershealthamplify": {
+      "service": "Pinpoint",
+      "providerPlugin": "awscloudformation"
+    }
   }
 }
