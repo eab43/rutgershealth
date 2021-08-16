@@ -1,7 +1,7 @@
 {
     "bucketName": "video",
-    "authPolicyName": "s3_amplify_f83d0ad4",
-    "unauthPolicyName": "s3_amplify_f83d0ad4",
+    "authPolicyName": "",
+    "unauthPolicyName": "",
     "authRoleName": {
         "Ref": "AuthRoleName"
     },
